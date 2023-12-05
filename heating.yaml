@@ -38,7 +38,7 @@ blueprint:
         number:
           min: 15
           max: 25
-          step: 1
+          step: 0.1
           mode: slider
     set_temp:
       name: Temperature Target
@@ -48,7 +48,7 @@ blueprint:
         number:
           min: 15
           max: 25
-          step: 1
+          step: 0.1
           mode: slider
     time_after:
       name: Time After
