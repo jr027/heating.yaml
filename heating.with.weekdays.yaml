@@ -129,7 +129,7 @@ trigger:
 condition:
   condition: template
   id: weekday
-  value_template: >
+  value_template: >-
     {{ 
       (current_day == 0 and monday_enabled)
       or (current_day == 1 and tuesday_enabled)
